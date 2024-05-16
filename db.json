@@ -1,0 +1,39 @@
+{
+    "quotes": [
+        {
+            "id": 1,
+            "quote": "The only way to do great work is to love what you do.",
+            "author": "Steve Jobs",
+            "nationality": "American",
+            "description": "Steve Jobs was the legendary co-founder and CEO of the multinational tech company known as Apple. He was a visionary and pioneer of the personal computer revolution, who also founded NeXT Computer Inc., and was the chairman and majority shareholder of Disney’s animation studio, Pixar. Considered a tech-titan by many, he’s been instrumental in inspiring many of today’s leaders, trend-setters, and CEOs across the globe."
+        },
+        {
+            "id": 2,
+            "quote": "Power corrupts; absolute power corrupts absolutely.",
+            "author": "John Dalberg-Acton",
+            "nationality": "British",
+            "description": "John Emerich Edward Dalberg Acton, 1st Baron Acton (born January 10, 1834, Naples [Italy]—died June 19, 1902, Tegernsee, Bavaria, Germany) was an English Liberal historian and moralist, the first great modern philosopher of resistance to the state, whether its form be authoritarian, democratic, or socialist."
+        },
+        {
+            "id": 3,
+            "quote": " It always seems impossible until it's done.",
+            "author": "Nelson Mandela",
+            "nationality": "South African",
+            "description": "Nelson Rolihlahla Mandela born Rolihlahla Mandela; 18 July 1918 – 5 December 2013 was a South African anti-apartheid activist, politician, and statesman who served as the first president of South Africa from 1994 to 1999."
+        },
+        {
+            "id": 4,
+            "quote": "You miss 100% of the shots you don't take.",
+            "author": "Wayne Gretzky",
+            "nationality": "Canadian",
+            "description": "Wayne Douglas Gretzky born January 26, 1961 is a Canadian former professional ice hockey player and former head coach. He played 20 seasons in the National Hockey League (NHL) for four teams from 1979 to 1999, retiring at the age of 38."
+        },
+        {
+            "id": 5,
+            "quote": "The future belongs to those who believe in the beauty of their dreams.",
+            "author": "Eleanor Roosevelt",
+            "nationality": "American",
+            "description": "Anna Eleanor Roosevelt, October 11, 1884 – November 7, 1962) was an American political figure, diplomat, and activist. She was the first lady of the United States from 1933 to 1945, during her husband President Franklin D. Roosevelt's four terms in office, making her the longest-serving first lady of the United States."
+        }
+    ]
+}
