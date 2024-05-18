@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Display JSON Data</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
+
 
 </head>
 
@@ -14,13 +14,33 @@
 
     <h1>Famous Quotes</h1>
 
-    <div id="json-data">
+    <div id="quote-container"></div>
+    <div>
+        <h3>Add a Quote</h3>
+        <form id="quote-form">
+            <label for="quote-input" class="quote-label">Quote:</label>
+            <input type="text" id="quote-input">
+            <label for="author-input" id="author-label" class="author-label">Author:</label>
+            <input type="text" id="author-input">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 
-
+    <div id="author-select">
+        <select name="name" id="name">
+            <option value="select">Select author</option>
+            <option value="steve jobs">Steve Jobs</option>
+            <option value="john dalberg-Acton">John Dalberg-Acton</option>
+            <option value="nelson mandela">Nelson Mandela</option>
+            <option value="wayne gretzky">Wayne Gretzky</option>
+            <option value="wayne gretzky">Wayne Gretzky</option>
+        </select>
+        <input type="text" name="text" id="new-quote"
+            placeholder="Choose an author from the dropdown to view their details...">
     </div>
 
 
-
+    <script src="index.js" defer></script>
 </body>
 
 </html>
