@@ -19,24 +19,26 @@
         <h3>Add a Quote</h3>
         <form id="quote-form">
             <label for="quote-input" class="quote-label">Quote:</label>
-            <input type="text" id="quote-input">
+            <input type="text" id="quote-input" class="form-input" required>
             <label for="author-input" id="author-label" class="author-label">Author:</label>
-            <input type="text" id="author-input">
-            <button type="submit">Submit</button>
+            <input type="text" id="author-input" class="form-input" required>
+            <button type="submit" class="btn">create</button>
         </form>
     </div>
 
     <div id="author-select">
         <select name="name" id="name">
-            <option value="select">Select author</option>
-            <option value="steve jobs">Steve Jobs</option>
-            <option value="john dalberg-Acton">John Dalberg-Acton</option>
-            <option value="nelson mandela">Nelson Mandela</option>
-            <option value="wayne gretzky">Wayne Gretzky</option>
-            <option value="wayne gretzky">Wayne Gretzky</option>
+            <option value="0">Select author</option>
+            <option value="1">Steve Jobs</option>
+            <option value="2">John Dalberg-Acton</option>
+            <option value="3">Nelson Mandela</option>
+            <option value="4">Wayne Gretzky</option>
+            <option value="5">Wayne Gretzky</option>
         </select>
-        <input type="text" name="text" id="new-quote"
-            placeholder="Choose an author from the dropdown to view their details...">
+        <div>
+            <textarea name="text" id="quote-description" cols="30"
+                rows="10">Choose an author from the dropdown to view their detail...</textarea>
+        </div>
     </div>
 
 
