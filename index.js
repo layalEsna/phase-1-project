@@ -1,4 +1,5 @@
 
+//phase 1 project
 document.addEventListener('DOMContentLoaded', () => {
     const quoteContainer = document.querySelector('#quote-container')
     let enlarge = false
